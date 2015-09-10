@@ -1,0 +1,1057 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2DB054C01979BC0A00E56970 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DB054BF1979BC0A00E56970 /* FacebookSDK.framework */; };
+		2DB054C31979BE1E00E56970 /* APIDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DB054C21979BE1E00E56970 /* APIDelegate.m */; };
+		78369A4A1965046000395464 /* MyTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78369A491965046000395464 /* MyTabBarViewController.m */; };
+		7899C84F1965864900AC4A2A /* CombBoxView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7899C84E1965864900AC4A2A /* CombBoxView.m */; };
+		7899C85519659E5A00AC4A2A /* down_dark.png in Resources */ = {isa = PBXBuildFile; fileRef = 7899C85419659E5A00AC4A2A /* down_dark.png */; };
+		78AD543B197851790034C8FF /* NotificationTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78AD543A197851790034C8FF /* NotificationTableViewController.m */; };
+		78AD54471978530D0034C8FF /* EmotionDetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 78AD54461978530D0034C8FF /* EmotionDetailTableViewCell.m */; };
+		78AD545D197853BC0034C8FF /* juice_Alert.png in Resources */ = {isa = PBXBuildFile; fileRef = 78AD5449197853BC0034C8FF /* juice_Alert.png */; };
+		78AD545E197853BC0034C8FF /* juice_Angry.png in Resources */ = {isa = PBXBuildFile; fileRef = 78AD544A197853BC0034C8FF /* juice_Angry.png */; };
+		78AD545F197853BC0034C8FF /* juice_Bored.png in Resources */ = {isa = PBXBuildFile; fileRef = 78AD544B197853BC0034C8FF /* juice_Bored.png */; };
+		78AD5460197853BC0034C8FF /* juice_Calm.png in Resources */ = {isa = PBXBuildFile; fileRef = 78AD544C197853BC0034C8FF /* juice_Calm.png */; };
+		78AD5461197853BC0034C8FF /* juice_Contented.png in Resources */ = {isa = PBXBuildFile; fileRef = 78AD544D197853BC0034C8FF /* juice_Contented.png */; };
+		78AD5462197853BC0034C8FF /* juice_Depressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 78AD544E197853BC0034C8FF /* juice_Depressed.png */; };
+		78AD5463197853BC0034C8FF /* juice_Elated.png in Resources */ = {isa = PBXBuildFile; fileRef = 78AD544F197853BC0034C8FF /* juice_Elated.png */; };
+		78AD5464197853BC0034C8FF /* juice_Excited.png in Resources */ = {isa = PBXBuildFile; fileRef = 78AD5450197853BC0034C8FF /* juice_Excited.png */; };
+		78AD5465197853BC0034C8FF /* juice_Fatigued.png in Resources */ = {isa = PBXBuildFile; fileRef = 78AD5451197853BC0034C8FF /* juice_Fatigued.png */; };
+		78AD5466197853BC0034C8FF /* juice_Frustrated.png in Resources */ = {isa = PBXBuildFile; fileRef = 78AD5452197853BC0034C8FF /* juice_Frustrated.png */; };
+		78AD5467197853BC0034C8FF /* juice_Happy.png in Resources */ = {isa = PBXBuildFile; fileRef = 78AD5453197853BC0034C8FF /* juice_Happy.png */; };
+		78AD5468197853BC0034C8FF /* juice_Lonely.png in Resources */ = {isa = PBXBuildFile; fileRef = 78AD5454197853BC0034C8FF /* juice_Lonely.png */; };
+		78AD5469197853BC0034C8FF /* juice_Nervous.png in Resources */ = {isa = PBXBuildFile; fileRef = 78AD5455197853BC0034C8FF /* juice_Nervous.png */; };
+		78AD546A197853BC0034C8FF /* juice_Relaxed.png in Resources */ = {isa = PBXBuildFile; fileRef = 78AD5456197853BC0034C8FF /* juice_Relaxed.png */; };
+		78AD546B197853BC0034C8FF /* juice_Sad.png in Resources */ = {isa = PBXBuildFile; fileRef = 78AD5457197853BC0034C8FF /* juice_Sad.png */; };
+		78AD546C197853BC0034C8FF /* juice_Scared.png in Resources */ = {isa = PBXBuildFile; fileRef = 78AD5458197853BC0034C8FF /* juice_Scared.png */; };
+		78AD546D197853BC0034C8FF /* juice_Serene.png in Resources */ = {isa = PBXBuildFile; fileRef = 78AD5459197853BC0034C8FF /* juice_Serene.png */; };
+		78AD546E197853BC0034C8FF /* juice_Stressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 78AD545A197853BC0034C8FF /* juice_Stressed.png */; };
+		78AD546F197853BC0034C8FF /* juice_Tense.png in Resources */ = {isa = PBXBuildFile; fileRef = 78AD545B197853BC0034C8FF /* juice_Tense.png */; };
+		78AD5470197853BC0034C8FF /* juice_Upset.png in Resources */ = {isa = PBXBuildFile; fileRef = 78AD545C197853BC0034C8FF /* juice_Upset.png */; };
+		78AD5477197853C20034C8FF /* book.png in Resources */ = {isa = PBXBuildFile; fileRef = 78AD5472197853C20034C8FF /* book.png */; };
+		78AD5478197853C20034C8FF /* food.png in Resources */ = {isa = PBXBuildFile; fileRef = 78AD5473197853C20034C8FF /* food.png */; };
+		78AD5479197853C20034C8FF /* grey_heart.png in Resources */ = {isa = PBXBuildFile; fileRef = 78AD5474197853C20034C8FF /* grey_heart.png */; };
+		78AD547A197853C20034C8FF /* movie.png in Resources */ = {isa = PBXBuildFile; fileRef = 78AD5475197853C20034C8FF /* movie.png */; };
+		78AD547B197853C20034C8FF /* red_heart.png in Resources */ = {isa = PBXBuildFile; fileRef = 78AD5476197853C20034C8FF /* red_heart.png */; };
+		78AD5481197855BE0034C8FF /* EmotionFolderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 78AD5480197855BE0034C8FF /* EmotionFolderCell.m */; };
+		78AD5484197855D50034C8FF /* EmotionFolderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78AD5483197855D50034C8FF /* EmotionFolderViewController.m */; };
+		78AD5487197858EC0034C8FF /* RecommendTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 78AD5486197858EC0034C8FF /* RecommendTableViewCell.m */; };
+		78AD54A319785DF50034C8FF /* GetSuggestionList.m in Sources */ = {isa = PBXBuildFile; fileRef = 78AD548B19785DF50034C8FF /* GetSuggestionList.m */; };
+		78AD54A419785DF50034C8FF /* Suggestion.m in Sources */ = {isa = PBXBuildFile; fileRef = 78AD548D19785DF50034C8FF /* Suggestion.m */; };
+		78AD54A519785DF50034C8FF /* LikeASuggestion.m in Sources */ = {isa = PBXBuildFile; fileRef = 78AD549019785DF50034C8FF /* LikeASuggestion.m */; };
+		78AD54A619785DF50034C8FF /* GetHugsOrComments.m in Sources */ = {isa = PBXBuildFile; fileRef = 78AD549419785DF50034C8FF /* GetHugsOrComments.m */; };
+		78AD54A719785DF50034C8FF /* HugOrComment.m in Sources */ = {isa = PBXBuildFile; fileRef = 78AD549619785DF50034C8FF /* HugOrComment.m */; };
+		78AD54A819785DF50034C8FF /* SendHugOrComment.m in Sources */ = {isa = PBXBuildFile; fileRef = 78AD549919785DF50034C8FF /* SendHugOrComment.m */; };
+		78AD54A919785DF50034C8FF /* DeleteNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 78AD549D19785DF50034C8FF /* DeleteNotification.m */; };
+		78AD54AA19785DF50034C8FF /* GetNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 78AD54A019785DF50034C8FF /* GetNotification.m */; };
+		78AD54AB19785DF50034C8FF /* Notification.m in Sources */ = {isa = PBXBuildFile; fileRef = 78AD54A219785DF50034C8FF /* Notification.m */; };
+		78BB0EF51961B1FD00B49167 /* TestName.plist in Resources */ = {isa = PBXBuildFile; fileRef = 78BB0EF41961B1FD00B49167 /* TestName.plist */; };
+		78C7DB591972460D00961AC8 /* EmotionDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C7DB581972460D00961AC8 /* EmotionDetailViewController.m */; };
+		78C814C11960B00C0070C163 /* MeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C814C01960B00C0070C163 /* MeTableViewController.m */; };
+		78C95BDD1965F54100C6BC18 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C95BDC1965F54100C6BC18 /* QuartzCore.framework */; };
+		78CACD9B19570D720016556C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78CACD9A19570D720016556C /* Foundation.framework */; };
+		78CACD9D19570D720016556C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78CACD9C19570D720016556C /* CoreGraphics.framework */; };
+		78CACD9F19570D720016556C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78CACD9E19570D720016556C /* UIKit.framework */; };
+		78CACDA519570D720016556C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 78CACDA319570D720016556C /* InfoPlist.strings */; };
+		78CACDA719570D720016556C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 78CACDA619570D720016556C /* main.m */; };
+		78CACDAB19570D720016556C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 78CACDAA19570D720016556C /* AppDelegate.m */; };
+		78CACDAE19570D720016556C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78CACDAC19570D720016556C /* Main.storyboard */; };
+		78CACDB319570D720016556C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78CACDB219570D720016556C /* Images.xcassets */; };
+		78CACDBA19570D720016556C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78CACDB919570D720016556C /* XCTest.framework */; };
+		78CACDBB19570D720016556C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78CACD9A19570D720016556C /* Foundation.framework */; };
+		78CACDBC19570D720016556C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78CACD9E19570D720016556C /* UIKit.framework */; };
+		78CACDC419570D720016556C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 78CACDC219570D720016556C /* InfoPlist.strings */; };
+		78CACDC619570D720016556C /* EmotionMapAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78CACDC519570D720016556C /* EmotionMapAppTests.m */; };
+		78CACDDD195715600016556C /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78CACDDC195715600016556C /* MapViewController.m */; };
+		78CACDE01957159A0016556C /* MapLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 78CACDDF1957159A0016556C /* MapLocation.m */; };
+		78CACDE2195717E50016556C /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78CACDE1195717E50016556C /* MapKit.framework */; };
+		78CC5A9619574C3700B64BEA /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78CC5A9519574C3700B64BEA /* CoreLocation.framework */; };
+		78CFA2FF196BA45200F1AD42 /* SendEmotion.m in Sources */ = {isa = PBXBuildFile; fileRef = 78CFA2FE196BA45200F1AD42 /* SendEmotion.m */; };
+		78D1A11B1961A594009A4D57 /* SettingsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D1A11A1961A594009A4D57 /* SettingsTableViewController.m */; };
+		78D5E8FE1964898800B045EA /* AddEmotionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D5E8FD1964898800B045EA /* AddEmotionCell.m */; };
+		78D7E4A21964C0EB0008A0D0 /* AddEmotionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D7E4A11964C0EB0008A0D0 /* AddEmotionViewController.m */; };
+		78D7E4B81964C96E0008A0D0 /* checkBoxNoSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = 78D7E4A51964C96E0008A0D0 /* checkBoxNoSelected.png */; };
+		78D7E4B91964C96E0008A0D0 /* checkBoxSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = 78D7E4A61964C96E0008A0D0 /* checkBoxSelected.png */; };
+		78D7E4BA1964C96E0008A0D0 /* orange_Alert.png in Resources */ = {isa = PBXBuildFile; fileRef = 78D7E4A81964C96E0008A0D0 /* orange_Alert.png */; };
+		78D7E4BB1964C96E0008A0D0 /* orange_Bored.png in Resources */ = {isa = PBXBuildFile; fileRef = 78D7E4A91964C96E0008A0D0 /* orange_Bored.png */; };
+		78D7E4BC1964C96E0008A0D0 /* orange_Calm.png in Resources */ = {isa = PBXBuildFile; fileRef = 78D7E4AA1964C96E0008A0D0 /* orange_Calm.png */; };
+		78D7E4BD1964C96E0008A0D0 /* orange_Contented.png in Resources */ = {isa = PBXBuildFile; fileRef = 78D7E4AB1964C96E0008A0D0 /* orange_Contented.png */; };
+		78D7E4BE1964C96E0008A0D0 /* orange_Depressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 78D7E4AC1964C96E0008A0D0 /* orange_Depressed.png */; };
+		78D7E4BF1964C96E0008A0D0 /* orange_Elated.png in Resources */ = {isa = PBXBuildFile; fileRef = 78D7E4AD1964C96E0008A0D0 /* orange_Elated.png */; };
+		78D7E4C01964C96E0008A0D0 /* orange_Excited.png in Resources */ = {isa = PBXBuildFile; fileRef = 78D7E4AE1964C96E0008A0D0 /* orange_Excited.png */; };
+		78D7E4C11964C96E0008A0D0 /* orange_Fatigued.png in Resources */ = {isa = PBXBuildFile; fileRef = 78D7E4AF1964C96E0008A0D0 /* orange_Fatigued.png */; };
+		78D7E4C21964C96E0008A0D0 /* orange_Happy.png in Resources */ = {isa = PBXBuildFile; fileRef = 78D7E4B01964C96E0008A0D0 /* orange_Happy.png */; };
+		78D7E4C31964C96E0008A0D0 /* orange_Nervous.png in Resources */ = {isa = PBXBuildFile; fileRef = 78D7E4B11964C96E0008A0D0 /* orange_Nervous.png */; };
+		78D7E4C41964C96E0008A0D0 /* orange_Relaxed.png in Resources */ = {isa = PBXBuildFile; fileRef = 78D7E4B21964C96E0008A0D0 /* orange_Relaxed.png */; };
+		78D7E4C51964C96E0008A0D0 /* orange_Sad.png in Resources */ = {isa = PBXBuildFile; fileRef = 78D7E4B31964C96E0008A0D0 /* orange_Sad.png */; };
+		78D7E4C61964C96E0008A0D0 /* orange_Serene.png in Resources */ = {isa = PBXBuildFile; fileRef = 78D7E4B41964C96E0008A0D0 /* orange_Serene.png */; };
+		78D7E4C71964C96E0008A0D0 /* orange_Stressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 78D7E4B51964C96E0008A0D0 /* orange_Stressed.png */; };
+		78D7E4C81964C96E0008A0D0 /* orange_Tense.png in Resources */ = {isa = PBXBuildFile; fileRef = 78D7E4B61964C96E0008A0D0 /* orange_Tense.png */; };
+		78D7E4C91964C96E0008A0D0 /* orange_Upset.png in Resources */ = {isa = PBXBuildFile; fileRef = 78D7E4B71964C96E0008A0D0 /* orange_Upset.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		78CACDBD19570D720016556C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78CACD8F19570D720016556C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78CACD9619570D720016556C;
+			remoteInfo = EmotionMapApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2DB054BF1979BC0A00E56970 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../../Documents/FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
+		2DB054C11979BE1E00E56970 /* APIDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APIDelegate.h; path = "Web Function/APIDelegate.h"; sourceTree = "<group>"; };
+		2DB054C21979BE1E00E56970 /* APIDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = APIDelegate.m; path = "Web Function/APIDelegate.m"; sourceTree = "<group>"; };
+		78369A481965046000395464 /* MyTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyTabBarViewController.h; path = Customize/UITabBar/MyTabBarViewController.h; sourceTree = "<group>"; };
+		78369A491965046000395464 /* MyTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyTabBarViewController.m; path = Customize/UITabBar/MyTabBarViewController.m; sourceTree = "<group>"; };
+		7899C84D1965864900AC4A2A /* CombBoxView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CombBoxView.h; path = Customize/CombBox/CombBoxView.h; sourceTree = "<group>"; };
+		7899C84E1965864900AC4A2A /* CombBoxView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CombBoxView.m; path = Customize/CombBox/CombBoxView.m; sourceTree = "<group>"; };
+		7899C8531965880600AC4A2A /* CombBoxChoose.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CombBoxChoose.h; path = Customize/CombBox/CombBoxChoose.h; sourceTree = "<group>"; };
+		7899C85419659E5A00AC4A2A /* down_dark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = down_dark.png; sourceTree = "<group>"; };
+		78AD5439197851790034C8FF /* NotificationTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NotificationTableViewController.h; path = Tabs/Notification/NotificationTableViewController.h; sourceTree = "<group>"; };
+		78AD543A197851790034C8FF /* NotificationTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NotificationTableViewController.m; path = Tabs/Notification/NotificationTableViewController.m; sourceTree = "<group>"; };
+		78AD54451978530D0034C8FF /* EmotionDetailTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EmotionDetailTableViewCell.h; path = EmotionDetail/EmotionDetailTableViewCell.h; sourceTree = "<group>"; };
+		78AD54461978530D0034C8FF /* EmotionDetailTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EmotionDetailTableViewCell.m; path = EmotionDetail/EmotionDetailTableViewCell.m; sourceTree = "<group>"; };
+		78AD5449197853BC0034C8FF /* juice_Alert.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = juice_Alert.png; sourceTree = "<group>"; };
+		78AD544A197853BC0034C8FF /* juice_Angry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = juice_Angry.png; sourceTree = "<group>"; };
+		78AD544B197853BC0034C8FF /* juice_Bored.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = juice_Bored.png; sourceTree = "<group>"; };
+		78AD544C197853BC0034C8FF /* juice_Calm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = juice_Calm.png; sourceTree = "<group>"; };
+		78AD544D197853BC0034C8FF /* juice_Contented.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = juice_Contented.png; sourceTree = "<group>"; };
+		78AD544E197853BC0034C8FF /* juice_Depressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = juice_Depressed.png; sourceTree = "<group>"; };
+		78AD544F197853BC0034C8FF /* juice_Elated.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = juice_Elated.png; sourceTree = "<group>"; };
+		78AD5450197853BC0034C8FF /* juice_Excited.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = juice_Excited.png; sourceTree = "<group>"; };
+		78AD5451197853BC0034C8FF /* juice_Fatigued.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = juice_Fatigued.png; sourceTree = "<group>"; };
+		78AD5452197853BC0034C8FF /* juice_Frustrated.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = juice_Frustrated.png; sourceTree = "<group>"; };
+		78AD5453197853BC0034C8FF /* juice_Happy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = juice_Happy.png; sourceTree = "<group>"; };
+		78AD5454197853BC0034C8FF /* juice_Lonely.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = juice_Lonely.png; sourceTree = "<group>"; };
+		78AD5455197853BC0034C8FF /* juice_Nervous.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = juice_Nervous.png; sourceTree = "<group>"; };
+		78AD5456197853BC0034C8FF /* juice_Relaxed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = juice_Relaxed.png; sourceTree = "<group>"; };
+		78AD5457197853BC0034C8FF /* juice_Sad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = juice_Sad.png; sourceTree = "<group>"; };
+		78AD5458197853BC0034C8FF /* juice_Scared.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = juice_Scared.png; sourceTree = "<group>"; };
+		78AD5459197853BC0034C8FF /* juice_Serene.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = juice_Serene.png; sourceTree = "<group>"; };
+		78AD545A197853BC0034C8FF /* juice_Stressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = juice_Stressed.png; sourceTree = "<group>"; };
+		78AD545B197853BC0034C8FF /* juice_Tense.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = juice_Tense.png; sourceTree = "<group>"; };
+		78AD545C197853BC0034C8FF /* juice_Upset.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = juice_Upset.png; sourceTree = "<group>"; };
+		78AD5472197853C20034C8FF /* book.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = book.png; sourceTree = "<group>"; };
+		78AD5473197853C20034C8FF /* food.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = food.png; sourceTree = "<group>"; };
+		78AD5474197853C20034C8FF /* grey_heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grey_heart.png; sourceTree = "<group>"; };
+		78AD5475197853C20034C8FF /* movie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = movie.png; sourceTree = "<group>"; };
+		78AD5476197853C20034C8FF /* red_heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red_heart.png; sourceTree = "<group>"; };
+		78AD547F197855BE0034C8FF /* EmotionFolderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EmotionFolderCell.h; path = "Tabs/Emotion Folder/EmotionFolderCell.h"; sourceTree = "<group>"; };
+		78AD5480197855BE0034C8FF /* EmotionFolderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EmotionFolderCell.m; path = "Tabs/Emotion Folder/EmotionFolderCell.m"; sourceTree = "<group>"; };
+		78AD5482197855D50034C8FF /* EmotionFolderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EmotionFolderViewController.h; path = "Tabs/Emotion Folder/EmotionFolderViewController.h"; sourceTree = "<group>"; };
+		78AD5483197855D50034C8FF /* EmotionFolderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EmotionFolderViewController.m; path = "Tabs/Emotion Folder/EmotionFolderViewController.m"; sourceTree = "<group>"; };
+		78AD5485197858EC0034C8FF /* RecommendTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RecommendTableViewCell.h; path = "Tabs/Emotion Folder/RecommendTableViewCell.h"; sourceTree = "<group>"; };
+		78AD5486197858EC0034C8FF /* RecommendTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RecommendTableViewCell.m; path = "Tabs/Emotion Folder/RecommendTableViewCell.m"; sourceTree = "<group>"; };
+		78AD548A19785DF50034C8FF /* GetSuggestionList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetSuggestionList.h; sourceTree = "<group>"; };
+		78AD548B19785DF50034C8FF /* GetSuggestionList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetSuggestionList.m; sourceTree = "<group>"; };
+		78AD548C19785DF50034C8FF /* Suggestion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Suggestion.h; sourceTree = "<group>"; };
+		78AD548D19785DF50034C8FF /* Suggestion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Suggestion.m; sourceTree = "<group>"; };
+		78AD548F19785DF50034C8FF /* LikeASuggestion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LikeASuggestion.h; sourceTree = "<group>"; };
+		78AD549019785DF50034C8FF /* LikeASuggestion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LikeASuggestion.m; sourceTree = "<group>"; };
+		78AD549319785DF50034C8FF /* GetHugsOrComments.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetHugsOrComments.h; sourceTree = "<group>"; };
+		78AD549419785DF50034C8FF /* GetHugsOrComments.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetHugsOrComments.m; sourceTree = "<group>"; };
+		78AD549519785DF50034C8FF /* HugOrComment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HugOrComment.h; sourceTree = "<group>"; };
+		78AD549619785DF50034C8FF /* HugOrComment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HugOrComment.m; sourceTree = "<group>"; };
+		78AD549819785DF50034C8FF /* SendHugOrComment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SendHugOrComment.h; sourceTree = "<group>"; };
+		78AD549919785DF50034C8FF /* SendHugOrComment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SendHugOrComment.m; sourceTree = "<group>"; };
+		78AD549C19785DF50034C8FF /* DeleteNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeleteNotification.h; sourceTree = "<group>"; };
+		78AD549D19785DF50034C8FF /* DeleteNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeleteNotification.m; sourceTree = "<group>"; };
+		78AD549F19785DF50034C8FF /* GetNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetNotification.h; sourceTree = "<group>"; };
+		78AD54A019785DF50034C8FF /* GetNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetNotification.m; sourceTree = "<group>"; };
+		78AD54A119785DF50034C8FF /* Notification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Notification.h; sourceTree = "<group>"; };
+		78AD54A219785DF50034C8FF /* Notification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Notification.m; sourceTree = "<group>"; };
+		78BB0EF41961B1FD00B49167 /* TestName.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TestName.plist; sourceTree = "<group>"; };
+		78C7DB571972460D00961AC8 /* EmotionDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EmotionDetailViewController.h; path = EmotionDetail/EmotionDetailViewController.h; sourceTree = "<group>"; };
+		78C7DB581972460D00961AC8 /* EmotionDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EmotionDetailViewController.m; path = EmotionDetail/EmotionDetailViewController.m; sourceTree = "<group>"; };
+		78C814BF1960B00C0070C163 /* MeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MeTableViewController.h; path = Tabs/Me/MeTableViewController.h; sourceTree = "<group>"; };
+		78C814C01960B00C0070C163 /* MeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MeTableViewController.m; path = Tabs/Me/MeTableViewController.m; sourceTree = "<group>"; };
+		78C95BDC1965F54100C6BC18 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		78CACD9719570D720016556C /* EmotionMapApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmotionMapApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		78CACD9A19570D720016556C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		78CACD9C19570D720016556C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		78CACD9E19570D720016556C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		78CACDA219570D720016556C /* EmotionMapApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EmotionMapApp-Info.plist"; sourceTree = "<group>"; };
+		78CACDA419570D720016556C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		78CACDA619570D720016556C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		78CACDA819570D720016556C /* EmotionMapApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EmotionMapApp-Prefix.pch"; sourceTree = "<group>"; };
+		78CACDA919570D720016556C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		78CACDAA19570D720016556C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		78CACDAD19570D720016556C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		78CACDB219570D720016556C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		78CACDB819570D720016556C /* EmotionMapAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmotionMapAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		78CACDB919570D720016556C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		78CACDC119570D720016556C /* EmotionMapAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EmotionMapAppTests-Info.plist"; sourceTree = "<group>"; };
+		78CACDC319570D720016556C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		78CACDC519570D720016556C /* EmotionMapAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmotionMapAppTests.m; sourceTree = "<group>"; };
+		78CACDDB195715600016556C /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MapViewController.h; path = Tabs/Map/MapViewController.h; sourceTree = "<group>"; };
+		78CACDDC195715600016556C /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MapViewController.m; path = Tabs/Map/MapViewController.m; sourceTree = "<group>"; };
+		78CACDDE1957159A0016556C /* MapLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MapLocation.h; path = Tabs/Map/MapLocation.h; sourceTree = "<group>"; };
+		78CACDDF1957159A0016556C /* MapLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MapLocation.m; path = Tabs/Map/MapLocation.m; sourceTree = "<group>"; };
+		78CACDE1195717E50016556C /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		78CC5A9519574C3700B64BEA /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		78CFA2FD196BA45200F1AD42 /* SendEmotion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SendEmotion.h; path = "Web Function/SendEmotionToServer/SendEmotion.h"; sourceTree = "<group>"; };
+		78CFA2FE196BA45200F1AD42 /* SendEmotion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SendEmotion.m; path = "Web Function/SendEmotionToServer/SendEmotion.m"; sourceTree = "<group>"; };
+		78D1A1191961A594009A4D57 /* SettingsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SettingsTableViewController.h; path = Tabs/Me/Settings/SettingsTableViewController.h; sourceTree = "<group>"; };
+		78D1A11A1961A594009A4D57 /* SettingsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SettingsTableViewController.m; path = Tabs/Me/Settings/SettingsTableViewController.m; sourceTree = "<group>"; };
+		78D5E8FC1964898800B045EA /* AddEmotionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AddEmotionCell.h; path = AddEmotion/AddEmotionCell.h; sourceTree = "<group>"; };
+		78D5E8FD1964898800B045EA /* AddEmotionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AddEmotionCell.m; path = AddEmotion/AddEmotionCell.m; sourceTree = "<group>"; };
+		78D7E4A01964C0EB0008A0D0 /* AddEmotionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AddEmotionViewController.h; path = AddEmotion/AddEmotionViewController.h; sourceTree = "<group>"; };
+		78D7E4A11964C0EB0008A0D0 /* AddEmotionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AddEmotionViewController.m; path = AddEmotion/AddEmotionViewController.m; sourceTree = "<group>"; };
+		78D7E4A51964C96E0008A0D0 /* checkBoxNoSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkBoxNoSelected.png; sourceTree = "<group>"; };
+		78D7E4A61964C96E0008A0D0 /* checkBoxSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkBoxSelected.png; sourceTree = "<group>"; };
+		78D7E4A81964C96E0008A0D0 /* orange_Alert.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = orange_Alert.png; sourceTree = "<group>"; };
+		78D7E4A91964C96E0008A0D0 /* orange_Bored.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = orange_Bored.png; sourceTree = "<group>"; };
+		78D7E4AA1964C96E0008A0D0 /* orange_Calm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = orange_Calm.png; sourceTree = "<group>"; };
+		78D7E4AB1964C96E0008A0D0 /* orange_Contented.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = orange_Contented.png; sourceTree = "<group>"; };
+		78D7E4AC1964C96E0008A0D0 /* orange_Depressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = orange_Depressed.png; sourceTree = "<group>"; };
+		78D7E4AD1964C96E0008A0D0 /* orange_Elated.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = orange_Elated.png; sourceTree = "<group>"; };
+		78D7E4AE1964C96E0008A0D0 /* orange_Excited.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = orange_Excited.png; sourceTree = "<group>"; };
+		78D7E4AF1964C96E0008A0D0 /* orange_Fatigued.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = orange_Fatigued.png; sourceTree = "<group>"; };
+		78D7E4B01964C96E0008A0D0 /* orange_Happy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = orange_Happy.png; sourceTree = "<group>"; };
+		78D7E4B11964C96E0008A0D0 /* orange_Nervous.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = orange_Nervous.png; sourceTree = "<group>"; };
+		78D7E4B21964C96E0008A0D0 /* orange_Relaxed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = orange_Relaxed.png; sourceTree = "<group>"; };
+		78D7E4B31964C96E0008A0D0 /* orange_Sad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = orange_Sad.png; sourceTree = "<group>"; };
+		78D7E4B41964C96E0008A0D0 /* orange_Serene.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = orange_Serene.png; sourceTree = "<group>"; };
+		78D7E4B51964C96E0008A0D0 /* orange_Stressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = orange_Stressed.png; sourceTree = "<group>"; };
+		78D7E4B61964C96E0008A0D0 /* orange_Tense.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = orange_Tense.png; sourceTree = "<group>"; };
+		78D7E4B71964C96E0008A0D0 /* orange_Upset.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = orange_Upset.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		78CACD9419570D720016556C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78C95BDD1965F54100C6BC18 /* QuartzCore.framework in Frameworks */,
+				78CC5A9619574C3700B64BEA /* CoreLocation.framework in Frameworks */,
+				78CACDE2195717E50016556C /* MapKit.framework in Frameworks */,
+				78CACD9D19570D720016556C /* CoreGraphics.framework in Frameworks */,
+				78CACD9F19570D720016556C /* UIKit.framework in Frameworks */,
+				78CACD9B19570D720016556C /* Foundation.framework in Frameworks */,
+				2DB054C01979BC0A00E56970 /* FacebookSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78CACDB519570D720016556C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78CACDBA19570D720016556C /* XCTest.framework in Frameworks */,
+				78CACDBC19570D720016556C /* UIKit.framework in Frameworks */,
+				78CACDBB19570D720016556C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		78043401196FA72D00A7C2F2 /* EmotionDetail */ = {
+			isa = PBXGroup;
+			children = (
+				78AD54451978530D0034C8FF /* EmotionDetailTableViewCell.h */,
+				78AD54461978530D0034C8FF /* EmotionDetailTableViewCell.m */,
+				78C7DB571972460D00961AC8 /* EmotionDetailViewController.h */,
+				78C7DB581972460D00961AC8 /* EmotionDetailViewController.m */,
+			);
+			name = EmotionDetail;
+			sourceTree = "<group>";
+		};
+		78369A461965042100395464 /* Customize */ = {
+			isa = PBXGroup;
+			children = (
+				78369A471965042A00395464 /* UITabBar */,
+				7899C849196585D900AC4A2A /* CombBox */,
+			);
+			name = Customize;
+			sourceTree = "<group>";
+		};
+		78369A471965042A00395464 /* UITabBar */ = {
+			isa = PBXGroup;
+			children = (
+				78369A481965046000395464 /* MyTabBarViewController.h */,
+				78369A491965046000395464 /* MyTabBarViewController.m */,
+			);
+			name = UITabBar;
+			sourceTree = "<group>";
+		};
+		7899C849196585D900AC4A2A /* CombBox */ = {
+			isa = PBXGroup;
+			children = (
+				7899C84D1965864900AC4A2A /* CombBoxView.h */,
+				7899C84E1965864900AC4A2A /* CombBoxView.m */,
+				7899C8531965880600AC4A2A /* CombBoxChoose.h */,
+			);
+			name = CombBox;
+			sourceTree = "<group>";
+		};
+		78AD5448197853BC0034C8FF /* JuiceEmotion */ = {
+			isa = PBXGroup;
+			children = (
+				78AD5449197853BC0034C8FF /* juice_Alert.png */,
+				78AD544A197853BC0034C8FF /* juice_Angry.png */,
+				78AD544B197853BC0034C8FF /* juice_Bored.png */,
+				78AD544C197853BC0034C8FF /* juice_Calm.png */,
+				78AD544D197853BC0034C8FF /* juice_Contented.png */,
+				78AD544E197853BC0034C8FF /* juice_Depressed.png */,
+				78AD544F197853BC0034C8FF /* juice_Elated.png */,
+				78AD5450197853BC0034C8FF /* juice_Excited.png */,
+				78AD5451197853BC0034C8FF /* juice_Fatigued.png */,
+				78AD5452197853BC0034C8FF /* juice_Frustrated.png */,
+				78AD5453197853BC0034C8FF /* juice_Happy.png */,
+				78AD5454197853BC0034C8FF /* juice_Lonely.png */,
+				78AD5455197853BC0034C8FF /* juice_Nervous.png */,
+				78AD5456197853BC0034C8FF /* juice_Relaxed.png */,
+				78AD5457197853BC0034C8FF /* juice_Sad.png */,
+				78AD5458197853BC0034C8FF /* juice_Scared.png */,
+				78AD5459197853BC0034C8FF /* juice_Serene.png */,
+				78AD545A197853BC0034C8FF /* juice_Stressed.png */,
+				78AD545B197853BC0034C8FF /* juice_Tense.png */,
+				78AD545C197853BC0034C8FF /* juice_Upset.png */,
+			);
+			path = JuiceEmotion;
+			sourceTree = "<group>";
+		};
+		78AD5471197853C20034C8FF /* RecommendIcons */ = {
+			isa = PBXGroup;
+			children = (
+				78AD5472197853C20034C8FF /* book.png */,
+				78AD5473197853C20034C8FF /* food.png */,
+				78AD5474197853C20034C8FF /* grey_heart.png */,
+				78AD5475197853C20034C8FF /* movie.png */,
+				78AD5476197853C20034C8FF /* red_heart.png */,
+			);
+			path = RecommendIcons;
+			sourceTree = "<group>";
+		};
+		78AD548819785DF50034C8FF /* EmotionFolder */ = {
+			isa = PBXGroup;
+			children = (
+				78AD548919785DF50034C8FF /* GetSuggestionList */,
+				78AD548E19785DF50034C8FF /* LikeASuggestion */,
+			);
+			name = EmotionFolder;
+			path = "Web Function/EmotionFolder";
+			sourceTree = "<group>";
+		};
+		78AD548919785DF50034C8FF /* GetSuggestionList */ = {
+			isa = PBXGroup;
+			children = (
+				78AD548A19785DF50034C8FF /* GetSuggestionList.h */,
+				78AD548B19785DF50034C8FF /* GetSuggestionList.m */,
+				78AD548C19785DF50034C8FF /* Suggestion.h */,
+				78AD548D19785DF50034C8FF /* Suggestion.m */,
+			);
+			path = GetSuggestionList;
+			sourceTree = "<group>";
+		};
+		78AD548E19785DF50034C8FF /* LikeASuggestion */ = {
+			isa = PBXGroup;
+			children = (
+				78AD548F19785DF50034C8FF /* LikeASuggestion.h */,
+				78AD549019785DF50034C8FF /* LikeASuggestion.m */,
+			);
+			path = LikeASuggestion;
+			sourceTree = "<group>";
+		};
+		78AD549119785DF50034C8FF /* HugOrComment */ = {
+			isa = PBXGroup;
+			children = (
+				78AD549219785DF50034C8FF /* GetHugsOrComments */,
+				78AD549719785DF50034C8FF /* SendHugOrComment */,
+			);
+			name = HugOrComment;
+			path = "Web Function/HugOrComment";
+			sourceTree = "<group>";
+		};
+		78AD549219785DF50034C8FF /* GetHugsOrComments */ = {
+			isa = PBXGroup;
+			children = (
+				78AD549319785DF50034C8FF /* GetHugsOrComments.h */,
+				78AD549419785DF50034C8FF /* GetHugsOrComments.m */,
+				78AD549519785DF50034C8FF /* HugOrComment.h */,
+				78AD549619785DF50034C8FF /* HugOrComment.m */,
+			);
+			path = GetHugsOrComments;
+			sourceTree = "<group>";
+		};
+		78AD549719785DF50034C8FF /* SendHugOrComment */ = {
+			isa = PBXGroup;
+			children = (
+				78AD549819785DF50034C8FF /* SendHugOrComment.h */,
+				78AD549919785DF50034C8FF /* SendHugOrComment.m */,
+			);
+			path = SendHugOrComment;
+			sourceTree = "<group>";
+		};
+		78AD549A19785DF50034C8FF /* MailBox */ = {
+			isa = PBXGroup;
+			children = (
+				78AD549B19785DF50034C8FF /* DeleteNotification */,
+				78AD549E19785DF50034C8FF /* GetNotification */,
+			);
+			name = MailBox;
+			path = "Web Function/MailBox";
+			sourceTree = "<group>";
+		};
+		78AD549B19785DF50034C8FF /* DeleteNotification */ = {
+			isa = PBXGroup;
+			children = (
+				78AD549C19785DF50034C8FF /* DeleteNotification.h */,
+				78AD549D19785DF50034C8FF /* DeleteNotification.m */,
+			);
+			path = DeleteNotification;
+			sourceTree = "<group>";
+		};
+		78AD549E19785DF50034C8FF /* GetNotification */ = {
+			isa = PBXGroup;
+			children = (
+				78AD549F19785DF50034C8FF /* GetNotification.h */,
+				78AD54A019785DF50034C8FF /* GetNotification.m */,
+				78AD54A119785DF50034C8FF /* Notification.h */,
+				78AD54A219785DF50034C8FF /* Notification.m */,
+			);
+			path = GetNotification;
+			sourceTree = "<group>";
+		};
+		78C7A8321976083D00B60F2D /* Emotion Folder */ = {
+			isa = PBXGroup;
+			children = (
+				78AD547F197855BE0034C8FF /* EmotionFolderCell.h */,
+				78AD5480197855BE0034C8FF /* EmotionFolderCell.m */,
+				78AD5485197858EC0034C8FF /* RecommendTableViewCell.h */,
+				78AD5486197858EC0034C8FF /* RecommendTableViewCell.m */,
+				78AD5482197855D50034C8FF /* EmotionFolderViewController.h */,
+				78AD5483197855D50034C8FF /* EmotionFolderViewController.m */,
+			);
+			name = "Emotion Folder";
+			sourceTree = "<group>";
+		};
+		78C92989197832E400CDB6DD /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				78AD5439197851790034C8FF /* NotificationTableViewController.h */,
+				78AD543A197851790034C8FF /* NotificationTableViewController.m */,
+			);
+			name = Notification;
+			sourceTree = "<group>";
+		};
+		78CACD8E19570D720016556C = {
+			isa = PBXGroup;
+			children = (
+				78CACDA019570D720016556C /* EmotionMapApp */,
+				78CACDBF19570D720016556C /* EmotionMapAppTests */,
+				78CACD9919570D720016556C /* Frameworks */,
+				78CACD9819570D720016556C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		78CACD9819570D720016556C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				78CACD9719570D720016556C /* EmotionMapApp.app */,
+				78CACDB819570D720016556C /* EmotionMapAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		78CACD9919570D720016556C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2DB054BF1979BC0A00E56970 /* FacebookSDK.framework */,
+				78C95BDC1965F54100C6BC18 /* QuartzCore.framework */,
+				78CC5A9519574C3700B64BEA /* CoreLocation.framework */,
+				78CACDE1195717E50016556C /* MapKit.framework */,
+				78CACD9A19570D720016556C /* Foundation.framework */,
+				78CACD9C19570D720016556C /* CoreGraphics.framework */,
+				78CACD9E19570D720016556C /* UIKit.framework */,
+				78CACDB919570D720016556C /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		78CACDA019570D720016556C /* EmotionMapApp */ = {
+			isa = PBXGroup;
+			children = (
+				78CACDA919570D720016556C /* AppDelegate.h */,
+				78CACDAA19570D720016556C /* AppDelegate.m */,
+				78CACDAC19570D720016556C /* Main.storyboard */,
+				78CACDB219570D720016556C /* Images.xcassets */,
+				78DA2ED71966BB97002FAE15 /* Web Function */,
+				78CACDD31957143A0016556C /* Tabs */,
+				78D4DAD919644FE600B571D9 /* AddEmotion */,
+				78043401196FA72D00A7C2F2 /* EmotionDetail */,
+				78369A461965042100395464 /* Customize */,
+				78CACDA119570D720016556C /* Supporting Files */,
+				78DB2669195845400030C6BE /* Lists */,
+			);
+			path = EmotionMapApp;
+			sourceTree = "<group>";
+		};
+		78CACDA119570D720016556C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				78D7E4A31964C96E0008A0D0 /* Icons */,
+				78CACDA219570D720016556C /* EmotionMapApp-Info.plist */,
+				78CACDA319570D720016556C /* InfoPlist.strings */,
+				78CACDA619570D720016556C /* main.m */,
+				78CACDA819570D720016556C /* EmotionMapApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		78CACDBF19570D720016556C /* EmotionMapAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				78CACDC519570D720016556C /* EmotionMapAppTests.m */,
+				78CACDC019570D720016556C /* Supporting Files */,
+			);
+			path = EmotionMapAppTests;
+			sourceTree = "<group>";
+		};
+		78CACDC019570D720016556C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				78CACDC119570D720016556C /* EmotionMapAppTests-Info.plist */,
+				78CACDC219570D720016556C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		78CACDD31957143A0016556C /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				78CACDD4195714660016556C /* Map */,
+				78C92989197832E400CDB6DD /* Notification */,
+				78C7A8321976083D00B60F2D /* Emotion Folder */,
+				78DB2668195845040030C6BE /* Me */,
+			);
+			name = Tabs;
+			sourceTree = "<group>";
+		};
+		78CACDD4195714660016556C /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				78CACDDE1957159A0016556C /* MapLocation.h */,
+				78CACDDF1957159A0016556C /* MapLocation.m */,
+				78CACDDB195715600016556C /* MapViewController.h */,
+				78CACDDC195715600016556C /* MapViewController.m */,
+			);
+			name = Map;
+			sourceTree = "<group>";
+		};
+		78D1A1181961A516009A4D57 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				78D1A1191961A594009A4D57 /* SettingsTableViewController.h */,
+				78D1A11A1961A594009A4D57 /* SettingsTableViewController.m */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		78D4DAD919644FE600B571D9 /* AddEmotion */ = {
+			isa = PBXGroup;
+			children = (
+				78D5E8FC1964898800B045EA /* AddEmotionCell.h */,
+				78D5E8FD1964898800B045EA /* AddEmotionCell.m */,
+				78D7E4A01964C0EB0008A0D0 /* AddEmotionViewController.h */,
+				78D7E4A11964C0EB0008A0D0 /* AddEmotionViewController.m */,
+			);
+			name = AddEmotion;
+			sourceTree = "<group>";
+		};
+		78D7E4A31964C96E0008A0D0 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				78AD5471197853C20034C8FF /* RecommendIcons */,
+				78AD5448197853BC0034C8FF /* JuiceEmotion */,
+				78D7E4A41964C96E0008A0D0 /* checkBox */,
+				78D7E4A71964C96E0008A0D0 /* OrangeEmotion */,
+			);
+			path = Icons;
+			sourceTree = "<group>";
+		};
+		78D7E4A41964C96E0008A0D0 /* checkBox */ = {
+			isa = PBXGroup;
+			children = (
+				7899C85419659E5A00AC4A2A /* down_dark.png */,
+				78D7E4A51964C96E0008A0D0 /* checkBoxNoSelected.png */,
+				78D7E4A61964C96E0008A0D0 /* checkBoxSelected.png */,
+			);
+			path = checkBox;
+			sourceTree = "<group>";
+		};
+		78D7E4A71964C96E0008A0D0 /* OrangeEmotion */ = {
+			isa = PBXGroup;
+			children = (
+				78D7E4A81964C96E0008A0D0 /* orange_Alert.png */,
+				78D7E4A91964C96E0008A0D0 /* orange_Bored.png */,
+				78D7E4AA1964C96E0008A0D0 /* orange_Calm.png */,
+				78D7E4AB1964C96E0008A0D0 /* orange_Contented.png */,
+				78D7E4AC1964C96E0008A0D0 /* orange_Depressed.png */,
+				78D7E4AD1964C96E0008A0D0 /* orange_Elated.png */,
+				78D7E4AE1964C96E0008A0D0 /* orange_Excited.png */,
+				78D7E4AF1964C96E0008A0D0 /* orange_Fatigued.png */,
+				78D7E4B01964C96E0008A0D0 /* orange_Happy.png */,
+				78D7E4B11964C96E0008A0D0 /* orange_Nervous.png */,
+				78D7E4B21964C96E0008A0D0 /* orange_Relaxed.png */,
+				78D7E4B31964C96E0008A0D0 /* orange_Sad.png */,
+				78D7E4B41964C96E0008A0D0 /* orange_Serene.png */,
+				78D7E4B51964C96E0008A0D0 /* orange_Stressed.png */,
+				78D7E4B61964C96E0008A0D0 /* orange_Tense.png */,
+				78D7E4B71964C96E0008A0D0 /* orange_Upset.png */,
+			);
+			path = OrangeEmotion;
+			sourceTree = "<group>";
+		};
+		78DA2ED71966BB97002FAE15 /* Web Function */ = {
+			isa = PBXGroup;
+			children = (
+				2DB054C11979BE1E00E56970 /* APIDelegate.h */,
+				2DB054C21979BE1E00E56970 /* APIDelegate.m */,
+				78AD548819785DF50034C8FF /* EmotionFolder */,
+				78AD549119785DF50034C8FF /* HugOrComment */,
+				78AD549A19785DF50034C8FF /* MailBox */,
+				78DA2ED81966BBB4002FAE15 /* SendEmotionToServer */,
+			);
+			name = "Web Function";
+			sourceTree = "<group>";
+		};
+		78DA2ED81966BBB4002FAE15 /* SendEmotionToServer */ = {
+			isa = PBXGroup;
+			children = (
+				78CFA2FD196BA45200F1AD42 /* SendEmotion.h */,
+				78CFA2FE196BA45200F1AD42 /* SendEmotion.m */,
+			);
+			name = SendEmotionToServer;
+			sourceTree = "<group>";
+		};
+		78DB2668195845040030C6BE /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				78C814BF1960B00C0070C163 /* MeTableViewController.h */,
+				78C814C01960B00C0070C163 /* MeTableViewController.m */,
+				78D1A1181961A516009A4D57 /* Settings */,
+			);
+			name = Me;
+			sourceTree = "<group>";
+		};
+		78DB2669195845400030C6BE /* Lists */ = {
+			isa = PBXGroup;
+			children = (
+				78BB0EF41961B1FD00B49167 /* TestName.plist */,
+			);
+			name = Lists;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		78CACD9619570D720016556C /* EmotionMapApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78CACDC919570D720016556C /* Build configuration list for PBXNativeTarget "EmotionMapApp" */;
+			buildPhases = (
+				78CACD9319570D720016556C /* Sources */,
+				78CACD9419570D720016556C /* Frameworks */,
+				78CACD9519570D720016556C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EmotionMapApp;
+			productName = EmotionMapApp;
+			productReference = 78CACD9719570D720016556C /* EmotionMapApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		78CACDB719570D720016556C /* EmotionMapAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78CACDCC19570D720016556C /* Build configuration list for PBXNativeTarget "EmotionMapAppTests" */;
+			buildPhases = (
+				78CACDB419570D720016556C /* Sources */,
+				78CACDB519570D720016556C /* Frameworks */,
+				78CACDB619570D720016556C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				78CACDBE19570D720016556C /* PBXTargetDependency */,
+			);
+			name = EmotionMapAppTests;
+			productName = EmotionMapAppTests;
+			productReference = 78CACDB819570D720016556C /* EmotionMapAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		78CACD8F19570D720016556C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Syracuse;
+				TargetAttributes = {
+					78CACDB719570D720016556C = {
+						TestTargetID = 78CACD9619570D720016556C;
+					};
+				};
+			};
+			buildConfigurationList = 78CACD9219570D720016556C /* Build configuration list for PBXProject "EmotionMapApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				he,
+			);
+			mainGroup = 78CACD8E19570D720016556C;
+			productRefGroup = 78CACD9819570D720016556C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				78CACD9619570D720016556C /* EmotionMapApp */,
+				78CACDB719570D720016556C /* EmotionMapAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		78CACD9519570D720016556C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78D7E4C21964C96E0008A0D0 /* orange_Happy.png in Resources */,
+				78AD5467197853BC0034C8FF /* juice_Happy.png in Resources */,
+				78AD545D197853BC0034C8FF /* juice_Alert.png in Resources */,
+				78D7E4C41964C96E0008A0D0 /* orange_Relaxed.png in Resources */,
+				78AD546F197853BC0034C8FF /* juice_Tense.png in Resources */,
+				78D7E4BE1964C96E0008A0D0 /* orange_Depressed.png in Resources */,
+				78D7E4C31964C96E0008A0D0 /* orange_Nervous.png in Resources */,
+				78AD5464197853BC0034C8FF /* juice_Excited.png in Resources */,
+				78D7E4BD1964C96E0008A0D0 /* orange_Contented.png in Resources */,
+				78CACDB319570D720016556C /* Images.xcassets in Resources */,
+				78AD5469197853BC0034C8FF /* juice_Nervous.png in Resources */,
+				78AD5478197853C20034C8FF /* food.png in Resources */,
+				78AD5470197853BC0034C8FF /* juice_Upset.png in Resources */,
+				78D7E4C61964C96E0008A0D0 /* orange_Serene.png in Resources */,
+				78AD546B197853BC0034C8FF /* juice_Sad.png in Resources */,
+				78AD5479197853C20034C8FF /* grey_heart.png in Resources */,
+				78D7E4C51964C96E0008A0D0 /* orange_Sad.png in Resources */,
+				78D7E4BC1964C96E0008A0D0 /* orange_Calm.png in Resources */,
+				78AD5462197853BC0034C8FF /* juice_Depressed.png in Resources */,
+				7899C85519659E5A00AC4A2A /* down_dark.png in Resources */,
+				78D7E4C91964C96E0008A0D0 /* orange_Upset.png in Resources */,
+				78D7E4BA1964C96E0008A0D0 /* orange_Alert.png in Resources */,
+				78D7E4BB1964C96E0008A0D0 /* orange_Bored.png in Resources */,
+				78D7E4C11964C96E0008A0D0 /* orange_Fatigued.png in Resources */,
+				78AD546D197853BC0034C8FF /* juice_Serene.png in Resources */,
+				78AD545F197853BC0034C8FF /* juice_Bored.png in Resources */,
+				78AD546A197853BC0034C8FF /* juice_Relaxed.png in Resources */,
+				78AD545E197853BC0034C8FF /* juice_Angry.png in Resources */,
+				78D7E4C81964C96E0008A0D0 /* orange_Tense.png in Resources */,
+				78D7E4BF1964C96E0008A0D0 /* orange_Elated.png in Resources */,
+				78D7E4B91964C96E0008A0D0 /* checkBoxSelected.png in Resources */,
+				78D7E4C01964C96E0008A0D0 /* orange_Excited.png in Resources */,
+				78AD5477197853C20034C8FF /* book.png in Resources */,
+				78BB0EF51961B1FD00B49167 /* TestName.plist in Resources */,
+				78AD547A197853C20034C8FF /* movie.png in Resources */,
+				78AD5463197853BC0034C8FF /* juice_Elated.png in Resources */,
+				78AD546E197853BC0034C8FF /* juice_Stressed.png in Resources */,
+				78CACDA519570D720016556C /* InfoPlist.strings in Resources */,
+				78CACDAE19570D720016556C /* Main.storyboard in Resources */,
+				78AD5468197853BC0034C8FF /* juice_Lonely.png in Resources */,
+				78D7E4C71964C96E0008A0D0 /* orange_Stressed.png in Resources */,
+				78AD5461197853BC0034C8FF /* juice_Contented.png in Resources */,
+				78AD546C197853BC0034C8FF /* juice_Scared.png in Resources */,
+				78AD5465197853BC0034C8FF /* juice_Fatigued.png in Resources */,
+				78D7E4B81964C96E0008A0D0 /* checkBoxNoSelected.png in Resources */,
+				78AD5460197853BC0034C8FF /* juice_Calm.png in Resources */,
+				78AD547B197853C20034C8FF /* red_heart.png in Resources */,
+				78AD5466197853BC0034C8FF /* juice_Frustrated.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78CACDB619570D720016556C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78CACDC419570D720016556C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		78CACD9319570D720016556C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78AD54A819785DF50034C8FF /* SendHugOrComment.m in Sources */,
+				78AD54A919785DF50034C8FF /* DeleteNotification.m in Sources */,
+				78AD5481197855BE0034C8FF /* EmotionFolderCell.m in Sources */,
+				78AD54471978530D0034C8FF /* EmotionDetailTableViewCell.m in Sources */,
+				78D1A11B1961A594009A4D57 /* SettingsTableViewController.m in Sources */,
+				78CACDDD195715600016556C /* MapViewController.m in Sources */,
+				78AD54A319785DF50034C8FF /* GetSuggestionList.m in Sources */,
+				7899C84F1965864900AC4A2A /* CombBoxView.m in Sources */,
+				78AD54A519785DF50034C8FF /* LikeASuggestion.m in Sources */,
+				78CACDAB19570D720016556C /* AppDelegate.m in Sources */,
+				78CACDA719570D720016556C /* main.m in Sources */,
+				78C7DB591972460D00961AC8 /* EmotionDetailViewController.m in Sources */,
+				78AD543B197851790034C8FF /* NotificationTableViewController.m in Sources */,
+				78369A4A1965046000395464 /* MyTabBarViewController.m in Sources */,
+				78AD54A419785DF50034C8FF /* Suggestion.m in Sources */,
+				78CACDE01957159A0016556C /* MapLocation.m in Sources */,
+				78D7E4A21964C0EB0008A0D0 /* AddEmotionViewController.m in Sources */,
+				2DB054C31979BE1E00E56970 /* APIDelegate.m in Sources */,
+				78AD54A719785DF50034C8FF /* HugOrComment.m in Sources */,
+				78CFA2FF196BA45200F1AD42 /* SendEmotion.m in Sources */,
+				78AD54AA19785DF50034C8FF /* GetNotification.m in Sources */,
+				78C814C11960B00C0070C163 /* MeTableViewController.m in Sources */,
+				78AD54A619785DF50034C8FF /* GetHugsOrComments.m in Sources */,
+				78AD54AB19785DF50034C8FF /* Notification.m in Sources */,
+				78AD5484197855D50034C8FF /* EmotionFolderViewController.m in Sources */,
+				78AD5487197858EC0034C8FF /* RecommendTableViewCell.m in Sources */,
+				78D5E8FE1964898800B045EA /* AddEmotionCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78CACDB419570D720016556C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78CACDC619570D720016556C /* EmotionMapAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		78CACDBE19570D720016556C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 78CACD9619570D720016556C /* EmotionMapApp */;
+			targetProxy = 78CACDBD19570D720016556C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		78CACDA319570D720016556C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78CACDA419570D720016556C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		78CACDAC19570D720016556C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78CACDAD19570D720016556C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		78CACDC219570D720016556C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78CACDC319570D720016556C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		78CACDC719570D720016556C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		78CACDC819570D720016556C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		78CACDCA19570D720016556C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/pcbeta/Documents/FacebookSDK,
+					/Users/pcbeta/Documents/FacebookSDK/FBAudienceNetwork,
+					/Users/MJ/Documents/FacebookSDK,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EmotionMapApp/EmotionMapApp-Prefix.pch";
+				INFOPLIST_FILE = "EmotionMapApp/EmotionMapApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		78CACDCB19570D720016556C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/pcbeta/Documents/FacebookSDK,
+					/Users/pcbeta/Documents/FacebookSDK/FBAudienceNetwork,
+					/Users/MJ/Documents/FacebookSDK,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EmotionMapApp/EmotionMapApp-Prefix.pch";
+				INFOPLIST_FILE = "EmotionMapApp/EmotionMapApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		78CACDCD19570D720016556C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EmotionMapApp.app/EmotionMapApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EmotionMapApp/EmotionMapApp-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "EmotionMapAppTests/EmotionMapAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		78CACDCE19570D720016556C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EmotionMapApp.app/EmotionMapApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EmotionMapApp/EmotionMapApp-Prefix.pch";
+				INFOPLIST_FILE = "EmotionMapAppTests/EmotionMapAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		78CACD9219570D720016556C /* Build configuration list for PBXProject "EmotionMapApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78CACDC719570D720016556C /* Debug */,
+				78CACDC819570D720016556C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78CACDC919570D720016556C /* Build configuration list for PBXNativeTarget "EmotionMapApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78CACDCA19570D720016556C /* Debug */,
+				78CACDCB19570D720016556C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78CACDCC19570D720016556C /* Build configuration list for PBXNativeTarget "EmotionMapAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78CACDCD19570D720016556C /* Debug */,
+				78CACDCE19570D720016556C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 78CACD8F19570D720016556C /* Project object */;
+}
